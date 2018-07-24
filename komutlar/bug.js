@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
-const hook = new Discord.WebhookClient('327058504194195457', 'YLblZXqvM6J4dztYF3dYnnPNiXpVWeTfTiZ-FBEeWJlzgySwripuaFoEi6ZcZf9Q-InZ');
+
+const hook = new Discord.WebhookClient('471272958422155274', 'YLblZXqvM6J4dztYF3dYnnPNiXpVWeTfTiZ-FBEeWJlzgySwripuaFoEi6ZcZf9Q-InZ');
 
 exports.run = (client, message, args) => {
   let mesaj = args.slice(0).join(' ');
