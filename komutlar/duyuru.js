@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 exports.run = (client, message, args) => {
 	let guild = message.guild
 	let duyurular = guild.channels.find('name', 'duyurular');
-	if (!duyurular) return message.reply('`duyurular` kanalını bulamıyorum.');
+	if (!duyurular) return message.reply('`duyuru` kanalını bulamıyorum.');
     let mesaj = args.slice(0).join(' ');
     if (mesaj.length < 1) return message.reply('Bir şey yazmadınız.');
     message.delete();
