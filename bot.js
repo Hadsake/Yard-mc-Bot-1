@@ -362,9 +362,9 @@ client.on('error', e => {
 });
 client.on('ready', () => {
   client.setInterval(() => {
-      client.user.setActivity("?davet | ?tavsiye | Yardımcıbot ", 'https://www.twitch.tv/isminigir');
-      client.user.setActivity(`?botbilgi | ?bilgi Yardımcıbot`, 'https://www.twitch.tv/isminigir');
-  }, 7000); // Burada 7000 yazan yeri degistirirseniz oynuyor kisminin degisme hizi suresi degisecektir 7000 7 saniye anlamina gelmektedir bunu 5000 yaparsaniz 5 saniye seklinde ayarlayabilirsiniz.
+      client.user.setGame("?davet | ?tavsiye | Yardımcıbot ", 'https://www.twitch.tv/ibrahim12655');
+      client.user.setGame(`?botbilgi | ?bilgi Yardımcıbot`, 'https://www.twitch.tv/ibrahim12655');
+  }, 5000); // Burada 7000 yazan yeri degistirirseniz oynuyor kisminin degisme hizi suresi degisecektir 7000 7 saniye anlamina gelmektedir bunu 5000 yaparsaniz 5 saniye seklinde ayarlayabilirsiniz.
 });
 
 client.login(process.env.BOT_TOKEN);
