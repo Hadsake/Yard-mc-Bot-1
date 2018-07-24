@@ -14,7 +14,7 @@ exports.run = (client, message) => {
     .setTimestamp()
     .addField("**Eğlence ve Kullanıcı Komutları:**", `!banned = Dene ve Görg? \!youtube = Youtube kanalımın linkini bulabilir siniz. \!website = Web Sitemizin linki bulabilirsiniz. \!avatarım = Avatarınınızı Gösterir. \!herkesebendençay = Herkese Çay Alırsınız. \!koş = Koşarsınız.\!çayiç = Çay İçersiniz. \!çekiç = İstediğiniz Kişiye Çekiç Atarsınız. \!çayaşekerat = Çaya Şeker Atarsınız. \!yumruh-at = Yumruk Atarsınız. \!yaz = Bota İstediğiniz Şeyi Yazdırırsınız. \nghg?sunucuresmi = BOT Sunucunun Resmini Atar. \nghg?sunucubilgi = BOT Sunucu Hakkında Bilgi Verir. \!kullanıcıbilgim = Sizin Hakkınızda Bilgi Verir. `)
     .addField("**Yetkilisi Komutlar**", `!ban = İstediğiniz Kişiyi Sunucudan Banlar. \!kick  = İstediğiniz Kişiyi Sunucudan Atar. \!unban = İstediğiniz Kişinin Yasağını Açar. \nghg?sustur = İstediğiniz Kişiyi Susturur. \nghg?oylama = Oylama Açar. \nghg?duyuru = Güzel Bir Duyuru Görünümü Sağlar.`)
-    .addField("**Ana Komutlar**", "g?yardım = BOT Komutlarını Atar. \g?bilgi = BOT Kendisi Hakkında Bilgi Verir. \g?ping = BOT Gecikme Süresini Söyler. \g?davet = BOT Davet Linkini Atar. \g?istatistik = BOT İstatistiklerini Atar.")
+    .addField("**Ana Komutlar**", "?yardım = BOT Komutlarını Atar. \?bilgi = BOT Kendisi Hakkında Bilgi Verir. \?ping = BOT Gecikme Süresini Söyler. \g?davet = BOT Davet Linkini Atar. \g?istatistik = BOT İstatistiklerini Atar.")
     .addField("**Yapımcı**", " **ibrahim#9834** ")
     .setFooter('**--------------------------**')
     return message.author.sendEmbed(pingozel)
