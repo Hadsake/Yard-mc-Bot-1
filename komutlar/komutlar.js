@@ -11,7 +11,7 @@ exports.run = (client, msg) => {
 [3] ekstra :: Ekstra komutları gösterir.
 [4] yetkili :: Yetkili komutlarını gösterir.
 [5] Destek  :: Destekleri komutlarını gösterir.
-# örn: g?eglence
+# örn: ?eglence
 `);
 };
 
