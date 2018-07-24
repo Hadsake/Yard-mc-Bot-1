@@ -360,12 +360,11 @@ client.on('warn', e => {
 client.on('error', e => {
   console.log(chalk.bgRed(e.replace(regToken, 'that was redacted')));
 });
-
-client.login(process.env.BOT_TOKEN);
-
 client.on('ready', () => {
   client.setInterval(() => {
-      client.user.setActivity("?davet | ?tavsiye | Yardımcıbot ", { type: "STREAMING" },{ status: "idle" });
-      client.user.setActivity(` ?botbilgi | ?bilgi Yardımcıbot`, { type: "STREAMING" },{ status: "idle" });
+      client.user.setActivity("?davet | ?tavsiye | Yardımcıbot ", 'https://www.twitch.tv/isminigir');
+      client.user.setActivity(`?botbilgi | ?bilgi Yardımcıbot`, 'https://www.twitch.tv/isminigir');
   }, 7000); // Burada 7000 yazan yeri degistirirseniz oynuyor kisminin degisme hizi suresi degisecektir 7000 7 saniye anlamina gelmektedir bunu 5000 yaparsaniz 5 saniye seklinde ayarlayabilirsiniz.
 });
+
+client.login(process.env.BOT_TOKEN);
