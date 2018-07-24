@@ -142,6 +142,10 @@ client.on('message', message => {
   }
 });
 client.on('message', msg => {
+  if (/(https?:\/\/)?(www\.)?(discord\.(gg|li|me|io)|discordapp\.com\/invite)\/.+/.test(msg.content)) return msg.delete()
+  .then(() => msg.reply('**Reklam Engellendi:shield:**'));
+  });
+client.on('message', msg => {
   if (msg.content === 'https://discord.gg/') {
    msg.delete(30)
     msg.reply('Reklam Engellendi');
