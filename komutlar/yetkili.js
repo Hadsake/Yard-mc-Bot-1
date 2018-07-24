@@ -7,7 +7,7 @@ require("moment-duration-format");
 
 exports.run = (client, msg) => {
   const duration = moment.duration(client.uptime).format(" D [gün], H [saat], m [dakika], s [saniye]");
-  msg.channel.sendCode("asciidoc", `⇝ Yetkili komutlar | Not:Komutlar g? ile baslar	
+  msg.channel.sendCode("asciidoc", `⇝ Yetkili komutlar | Not:Komutlar ? ile baslar	
   • istatistik      :: Bot Istatistiligini Gosterir.
   • anket :: Anket Acar		
   • ban   :: İstediğiniz kişiyi sunucudan yasaklar.
